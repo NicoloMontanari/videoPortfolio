@@ -1,0 +1,57 @@
+Init website
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   assets/css/fontawesome-all.min.css
+#	new file:   assets/css/images/ie/grad0-15.svg
+#	new file:   assets/css/images/overlay.png
+#	new file:   assets/css/main.css
+#	new file:   assets/js/backgroundEffect.js
+#	new file:   assets/js/breakpoints.min.js
+#	new file:   assets/js/browser.min.js
+#	new file:   assets/js/jquery.min.js
+#	new file:   assets/js/jquery.scrollex.min.js
+#	new file:   assets/js/jquery.scrolly.min.js
+#	new file:   assets/js/main.js
+#	new file:   assets/js/p5.js
+#	new file:   assets/js/text-eraser.js
+#	new file:   assets/js/util.js
+#	new file:   assets/sass/libs/_breakpoints.scss
+#	new file:   assets/sass/libs/_functions.scss
+#	new file:   assets/sass/libs/_html-grid.scss
+#	new file:   assets/sass/libs/_mixins.scss
+#	new file:   assets/sass/libs/_vars.scss
+#	new file:   assets/sass/libs/_vendor.scss
+#	new file:   assets/sass/main.scss
+#	new file:   assets/webfonts/fa-brands-400.eot
+#	new file:   assets/webfonts/fa-brands-400.svg
+#	new file:   assets/webfonts/fa-brands-400.ttf
+#	new file:   assets/webfonts/fa-brands-400.woff
+#	new file:   assets/webfonts/fa-brands-400.woff2
+#	new file:   assets/webfonts/fa-regular-400.eot
+#	new file:   assets/webfonts/fa-regular-400.svg
+#	new file:   assets/webfonts/fa-regular-400.ttf
+#	new file:   assets/webfonts/fa-regular-400.woff
+#	new file:   assets/webfonts/fa-regular-400.woff2
+#	new file:   assets/webfonts/fa-solid-900.eot
+#	new file:   assets/webfonts/fa-solid-900.svg
+#	new file:   assets/webfonts/fa-solid-900.ttf
+#	new file:   assets/webfonts/fa-solid-900.woff
+#	new file:   assets/webfonts/fa-solid-900.woff2
+#	new file:   images/avatar.jpg
+#	new file:   images/banner.jpg
+#	new file:   images/pic02.jpg
+#	new file:   images/pic03.jpg
+#	new file:   images/pic04.jpg
+#	new file:   images/pic05.jpg
+#	new file:   images/pic06.jpg
+#	new file:   images/pic07.jpg
+#	new file:   images/pic08.jpg
+#	new file:   index.html
+#

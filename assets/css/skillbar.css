@@ -1,0 +1,83 @@
+.skillcontainer{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left !important;
+}
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.skillbar{
+  background-color: #EEE;
+  padding: 0px;
+  height: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: transparent;
+}
+.skillbar::before{
+  content:  attr(data-skill);
+  background-color: #2196F3;
+  display: inline-block;
+  height: 23px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.skillbar.front::before{
+  background-color: #2196F3;
+}
+.skillbar.back::before{
+  background-color: #2196F3;
+}
+
+.skillbar.started::before{
+  width: calc(15%);
+}
+
+.skillbar.learning::before{
+  width: calc(30%);
+}
+.skillbar.basic::before{
+  width: calc(40%);
+}
+.skillbar.intermediate::before{
+  width: calc(60%);
+}
+.skillbar.advanced::before{
+  width: calc(80%);
+}
+
+.skillbar.anexpert::before{
+  width: calc(90%);
+}
+.skillbar.expert::before{
+  width: calc(100%);
+}
+
+.percentage{
+  float: right;
+  font-size: 15px;
+}
