@@ -7,27 +7,24 @@
 document.getElementById("emailForm")
 		.addEventListener("submit", function (event) {
 		
-			if (document.getElementById("email").value.length == 0 || document.getElementById("name").value.length == 0 || document.getElementById("subject").value.length == 0 || document.getElementById("message").value.length == 0 )
-			{
-				return 10;
-				alert("XD");
-			}
 			event.preventDefault();
 
+			if (document.getElementById("email").value.length != 0 || document.getElementById("name").value.length != 0 || document.getElementById("subject").value.length != 0 || document.getElementById("message").value.length != 0 )
+			{
 
-		    const serviceID = "service_62xzi6z";
-		    const templateID = "template_s4ndxlo";
+			    const serviceID = "service_62xzi6z";
+			    const templateID = "template_s4ndxlo";
 
-		    // send the email here
-		    emailjs.sendForm(serviceID, templateID, this).then(
-		      (response) => {
-		        alert("EMAIL INVIATA");
-		      },
-		      (error) => {
-		        alert("ERRORE, RIPROVA DI NUOVO O UN'ALTRA VOLTA", error);
-		      }
-		    );
-		   
+			    // send the email here
+			    emailjs.sendForm(serviceID, templateID, this).then(
+			      (response) => {
+			        alert("EMAIL INVIATA");
+			      },
+			      (error) => {
+			        alert("ERRORE, RIPROVA DI NUOVO O UN'ALTRA VOLTA", error);
+			      }
+			    );
+			}   
 
 });
 
