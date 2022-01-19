@@ -9,7 +9,7 @@ document.getElementById("emailForm")
 		
 			event.preventDefault();
 
-			if (document.getElementById("email").value.length != 0 && document.getElementById("name").value.length != 0 && document.getElementById("subject").value.length != 0 && document.getElementById("message").value.length != 0 )
+			if (document.getElementById("email").value != "" && document.getElementById("name").value != "" && document.getElementById("subject").value != "" && document.getElementById("message").value != "" )
 			{
 
 			    const serviceID = "service_62xzi6z";
