@@ -1,8 +1,9 @@
 
 (function() {
 	emailjs.init("user_wKAdwdv5nPAqQiCtV5mVe");
-	emailjs.sendForm("service_62xzi6z", "template_s4ndxlo", "#emailForm")
+
 })();
+
 
 document.getElementById("emailForm")
 		.addEventListener("submit", function (event) {
